@@ -24,9 +24,45 @@ from urllib.parse import urlparse
 import requests
 
 from . import config_bridge as C
-from .utils import get_logger
+from .utils import get_logger, load_netscape_cookies
 
 log = get_logger()
+
+
+def _load_cookies(settings: "C.Settings") -> list[dict]:
+    """Đọc cookies.txt nếu bật USE_COOKIES. Trả về [] nếu không có."""
+    if not getattr(settings, "use_cookies", False):
+        return []
+    cookies = load_netscape_cookies(getattr(settings, "cookies_file", ""))
+    if cookies:
+        log.info("Đã nạp %d cookies từ %s (đăng nhập lại phiên cũ).",
+                len(cookies), settings.cookies_file)
+    else:
+        log.warning("USE_COOKIES=True nhưng không đọc được cookie nào từ %s.",
+                    getattr(settings, "cookies_file", ""))
+    return cookies
+
+
+# Dấu hiệu trong HTML cho biết ĐÃ đăng nhập (link đăng xuất / trang tài khoản).
+_LOGIN_MARKERS = ("users/logout", "/users/editinfo", "Thoát", "Đăng xuất")
+# Dấu hiệu CHƯA đăng nhập.
+_LOGOUT_MARKERS = ("users/login", "Đăng nhập")
+
+
+def check_login(fetcher, settings: "C.Settings") -> bool:
+    """Tải trang chủ và đoán trạng thái đăng nhập dựa trên HTML."""
+    res = fetcher.get(settings.base_url + "/")
+    if not res.ok:
+        log.warning("Không kiểm tra được đăng nhập (lỗi tải trang chủ: %s).", res.error)
+        return False
+    html = res.html or ""
+    logged_in = any(m in html for m in _LOGIN_MARKERS)
+    if logged_in:
+        log.info("✔ ĐÃ ĐĂNG NHẬP bằng cookies — dữ liệu chi tiết sẽ đầy đủ hơn.")
+    else:
+        log.warning("✗ CHƯA đăng nhập (cookies có thể đã hết hạn). "
+                    "Hãy đăng nhập lại trên trình duyệt rồi xuất cookies.txt mới.")
+    return logged_in
 
 
 @dataclass
@@ -105,6 +141,13 @@ class SimpleFetcher:
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": settings.user_agent,
                                     "Accept-Language": "vi,en;q=0.8"})
+        # Nạp cookies đăng nhập (nếu có) vào session.
+        for ck in _load_cookies(settings):
+            self.session.cookies.set(
+                ck["name"], ck["value"],
+                domain=ck["domain"], path=ck["path"],
+                secure=ck["secure"],
+            )
         self.limiter = RateLimiter(settings.request_delay, settings.random_jitter)
         self.robots = RobotsGate(settings.base_url, settings.user_agent,
                                 settings.respect_robots)
@@ -177,6 +220,27 @@ class BrowserFetcher:
             locale="vi-VN",
             viewport={"width": 1366, "height": 900},
         )
+        # Nạp cookies đăng nhập (nếu có) vào browser context.
+        cookies = _load_cookies(self.s)
+        if cookies:
+            pw_cookies = []
+            for ck in cookies:
+                c = {
+                    "name": ck["name"],
+                    "value": ck["value"],
+                    "domain": ck["domain"],
+                    "path": ck["path"],
+                    "secure": ck["secure"],
+                    "httpOnly": ck.get("httpOnly", False),
+                }
+                # expires=0 (cookie phiên) => Playwright dùng -1
+                c["expires"] = ck["expires"] if ck["expires"] > 0 else -1
+                pw_cookies.append(c)
+            try:
+                self._context.add_cookies(pw_cookies)
+                log.info("Đã gắn %d cookies vào trình duyệt.", len(pw_cookies))
+            except Exception as e:  # noqa
+                log.warning("Không gắn được cookies vào trình duyệt: %s", e)
         # Chặn tải tài nguyên không cần thiết để nhanh hơn.
         block = set(self.s.block_resources or [])
         if block:

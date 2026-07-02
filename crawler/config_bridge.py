@@ -41,6 +41,16 @@ class Settings:
     sqlite_file: str = user_config.SQLITE_FILE
     save_raw_html: bool = user_config.SAVE_RAW_HTML
 
+    # Đăng nhập bằng cookies (mặc định an toàn nếu config.py cũ chưa có).
+    use_cookies: bool = getattr(user_config, "USE_COOKIES", False)
+    cookies_file: str = getattr(user_config, "COOKIES_FILE", "")
+
+    # Trích xuất nội dung
+    main_content_selectors: list = field(
+        default_factory=lambda: list(getattr(user_config, "MAIN_CONTENT_SELECTORS", [])))
+    image_url_blacklist: list = field(
+        default_factory=lambda: list(getattr(user_config, "IMAGE_URL_BLACKLIST", [])))
+
     def apply_overrides(self, **kw):
         """Ghi đè các trường không phải None từ CLI."""
         for k, v in kw.items():

@@ -88,3 +88,45 @@ def safe_filename(name: str, max_len: int = 120) -> str:
 def ensure_dir(path: str) -> str:
     os.makedirs(path, exist_ok=True)
     return path
+
+
+def load_netscape_cookies(path: str) -> list[dict]:
+    """Đọc file cookies định dạng Netscape (xuất từ trình duyệt/extension).
+
+    Mỗi dòng: domain \t include_subdomains \t path \t secure \t expiry \t name \t value
+    Dòng bắt đầu bằng '#HttpOnly_' vẫn là cookie hợp lệ (đánh dấu HttpOnly).
+    Trả về list dict: {name, value, domain, path, expires, secure, httpOnly}.
+    """
+    cookies: list[dict] = []
+    if not path or not os.path.isfile(path):
+        return cookies
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.rstrip("\n")
+            http_only = False
+            if line.startswith("#HttpOnly_"):
+                http_only = True
+                line = line[len("#HttpOnly_"):]
+            elif not line.strip() or line.startswith("#"):
+                continue
+            parts = line.split("\t")
+            if len(parts) != 7:
+                continue
+            domain, sub_flag, cpath, secure, expiry, name, value = parts
+            try:
+                expires = int(expiry)
+            except ValueError:
+                expires = 0
+            # include_subdomains TRUE => domain dạng ".example.com"
+            if sub_flag.upper() == "TRUE" and not domain.startswith("."):
+                domain = "." + domain
+            cookies.append({
+                "name": name,
+                "value": value,
+                "domain": domain,
+                "path": cpath or "/",
+                "expires": expires,          # 0 => cookie phiên (session)
+                "secure": secure.upper() == "TRUE",
+                "httpOnly": http_only,
+            })
+    return cookies

@@ -1,0 +1,229 @@
+[
+  {
+    "url": "https://dauthau.asia/index.php?language=vi&nv=popups&op=main&list=1&m=bidding&f=thongbao",
+    "json": {
+      "popups": [
+        {
+          "id": 7,
+          "priority": 1,
+          "updated_time": 1782976964,
+          "title": "WORKSHOP OFFLINE 16/07 TẠI HÀ NỘI",
+          "description": "",
+          "content": "<p class=\"PDq2pG_selectionAnchorContainer\" data-start=\"696\" data-end=\"777\"><strong data-start=\"696\" data-end=\"777\">Đừng để những thay đổi của Luật Đấu thầu năm 2026 làm giảm cơ hội trúng thầu</strong></p><ul><li data-list-item-id=\"edcb80fe61ef5c12fcaa48496015a02a0\"><p class=\"PDq2pG_selectionAnchorContainer\" data-start=\"696\" data-end=\"777\"><strong data-start=\"268\" data-end=\"282\">Thời gian:</strong> Thứ Năm, ngày <strong data-start=\"297\" data-end=\"311\">16/07/2026</strong> (08:00 - 17:00)</p></li><li data-list-item-id=\"e75cad97de4c6b0dcd4cb80467580dc4b\"><p class=\"PDq2pG_selectionAnchorContainer\" data-start=\"696\" data-end=\"777\"><strong data-start=\"332\" data-end=\"345\">Địa điểm:</strong> The Vườn Giảng Võ, Hà Nội</p></li></ul><p data-start=\"782\" data-end=\"921\">Tham gia Workshop cùng <strong data-start=\"805\" data-end=\"829\">TS. Nguyễn Việt Hùng</strong> để cập nhật quy định mới, hạn chế sai sót khi dự thầu và trao đổi trực tiếp với chuyên gia</p><p data-start=\"926\" data-end=\"978\"><strong data-start=\"926\" data-end=\"978\">⚠ Chỉ nhận 100 học viên. Đăng ký sớm để giữ chỗ!</strong></p>",
+          "layout": 1,
+          "display_type": 2,
+          "display_interval": 0,
+          "max_show": 1,
+          "url": "https://dauthau.asia/news/tin-tuc/dung-de-nhung-thay-doi-ve-dau-thau-nam-2026-lam-giam-co-hoi-trung-thau-1935.html",
+          "target": "_blank",
+          "css_class": "",
+          "delay": 1,
+          "freq": 0,
+          "close_outside": 1,
+          "close_text": "Đóng",
+          "view_more_text": "Xem chi tiết & Đăng ký ngay",
+          "track_url": "/index.php?language=vi&nv=popups&op=main",
+          "track_checkss": "8168b42e441e578da57d72aac3e09c59186931f451718ee706ecf328199cd1431783001513"
+        }
+      ],
+      "preview_mode": 0,
+      "preview_error": ""
+    }
+  },
+  {
+    "url": "https://cdn.dauthau.asia/datafomo/arr_data_2.json?t=2026070217",
+    "json": {
+      "1782987324": {
+        "type_data": 3,
+        "time": 1782987324,
+        "time_title": "17:15:24 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN ĐÔNG NAM Á</b> đã thanh toán thành công <a href=\"https://dauthau.asia/page/tinh-nang-bang-gia-goi-x2.html\"><b>gói X2.</b></a>"
+      },
+      "1782963383": {
+        "type_data": 3,
+        "time": 1782963383,
+        "time_title": "10:36:23 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>CÔNG TY TNHH THƯƠNG MẠI & DỊCH VỤ PHÁT TRIỂN CÔNG NGHỆ BẢO TRÂN</b> đã thanh toán thành công <a href=\"https://dauthau.asia/page/bang-gia-goi-vip7.html\"><b>gói VIP 7.</b></a>"
+      },
+      "1782899067": {
+        "type_data": 3,
+        "time": 1782899067,
+        "time_title": "16:44:27 01/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>Hoài Ân</b> đã thanh toán thành công <a href=\"https://dauthau.asia/page/bang-gia-goi-vieweb.html\"><b>gói VIEWEB.</b></a>"
+      },
+      "1782896975": {
+        "type_data": 3,
+        "time": 1782896975,
+        "time_title": "16:09:35 01/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>Phạm Thị Thanh Hương</b> đã thanh toán thành công <a href=\"https://dauthau.asia/page/bang-gia-goi-vieweb.html\"><b>gói VIEWEB.</b></a>"
+      },
+      "1782879744": {
+        "type_data": 3,
+        "time": 1782879744,
+        "time_title": "11:22:24 01/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>TinkTalk</b> đã thanh toán thành công <a href=\"https://dauthau.asia/page/tinh-nang-bang-gia-goi-vip3.html\"><b>gói VIP 3.</b></a>"
+      },
+      "1782878373": {
+        "type_data": 3,
+        "time": 1782878373,
+        "time_title": "10:59:33 01/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>CÔNG TY TNHH ĐẦU TƯ PHÁT TRIỂN ĐTK 89</b> đã thanh toán thành công <a href=\"https://dauthau.asia/page/bang-gia-goi-vieweb.html\"><b>gói VIEWEB.</b></a>"
+      },
+      "1782787869": {
+        "type_data": 3,
+        "time": 1782787869,
+        "time_title": "09:51:09 30/06/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>CÔNG TY CP TƯ VẤN XÂY DỰNG VÀ DỊCH VỤ DU LỊCH 26</b> đã thanh toán thành công <a href=\"https://dauthau.asia/page/bang-gia-goi-vieweb.html\"><b>gói VIEWEB.</b></a>"
+      },
+      "1782987271": {
+        "type_data": 2,
+        "id": 367812,
+        "time": 1782987271,
+        "time_title": "17:14:31 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN ĐÔNG NAM Á</b> đã đăng ký thành công <a href=\"https://dauthau.asia/page/tinh-nang-bang-gia-goi-x1.html\"><b>gói X1.</b></a>"
+      },
+      "1782986001": {
+        "type_data": 2,
+        "id": 367811,
+        "time": 1782986001,
+        "time_title": "16:53:21 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>CÔNG TY TNHH GETZ BROS & CO. (VIỆT NAM)</b> đã đăng ký thành công <a href=\"https://dauthau.asia/page/bang-gia-goi-vip7.html\"><b>gói VIP 7.</b></a>"
+      },
+      "1782985445": {
+        "type_data": 2,
+        "id": 367810,
+        "time": 1782985445,
+        "time_title": "16:44:05 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>CÔNG TY TNHH KỸ THUẬT CÔNG NGHỆ TEKSCOM</b> đã đăng ký thành công <a href=\"https://dauthau.asia/page/bang-gia-goi-vieweb.html\"><b>gói VIEWEB.</b></a>"
+      },
+      "1782979089": {
+        "type_data": 2,
+        "id": 367807,
+        "time": 1782979089,
+        "time_title": "14:58:09 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>CÔNG TY CỔ PHẦN VINACONEX SÀI GÒN</b> đã đăng ký thành công <a href=\"https://dauthau.asia/page/bang-gia-goi-vip1-vip2.html\"><b>gói VIP 2.</b></a>"
+      },
+      "1782979075": {
+        "type_data": 2,
+        "id": 367806,
+        "time": 1782979075,
+        "time_title": "14:57:55 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>CÔNG TY CỔ PHẦN VINACONEX SÀI GÒN</b> đã đăng ký thành công <a href=\"https://dauthau.asia/page/bang-gia-goi-vip1-vip2.html\"><b>gói VIP 1.</b></a>"
+      },
+      "1782963334": {
+        "type_data": 2,
+        "id": 367803,
+        "time": 1782963334,
+        "time_title": "10:35:34 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>CÔNG TY TNHH THƯƠNG MẠI & DỊCH VỤ PHÁT TRIỂN CÔNG NGHỆ BẢO TRÂN</b> đã đăng ký thành công <a href=\"https://dauthau.asia/page/bang-gia-goi-vip7.html\"><b>gói VIP 7.</b></a>"
+      },
+      "1782959552": {
+        "type_data": 2,
+        "id": 367802,
+        "time": 1782959552,
+        "time_title": "09:32:32 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>Công ty TNHH Mạnh Quân</b> đã đăng ký thành công <a href=\"https://dauthau.asia/page/tinh-nang-bang-gia-goi-vip3.html\"><b>gói VIP 3.</b></a>"
+      },
+      "1782958263": {
+        "type_data": 2,
+        "id": 367801,
+        "time": 1782958263,
+        "time_title": "09:11:03 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>CÔNG TY CỔ PHẦN Y TẾ VIỆT TIẾN</b> đã đăng ký thành công <a href=\"https://dauthau.asia/page/tinh-nang-bang-gia-goi-api.html\"><b>gói API VIP.</b></a>"
+      },
+      "1782956775": {
+        "type_data": 2,
+        "id": 367800,
+        "time": 1782956775,
+        "time_title": "08:46:15 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>Do quynh Trang</b> đã đăng ký thành công <a href=\"https://dauthau.asia/page/bang-gia-goi-vip1-vip2.html\"><b>gói VIP 1.</b></a>"
+      },
+      "1782987567": {
+        "type_data": 1,
+        "time": 1782987567,
+        "time_title": "17:19:27 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>Nguyen Nhu</b> đã đăng ký <a href=\"https://iportal.vn/vi/users/register/\"><b>thành viên</b></a> thành công."
+      },
+      "1782987366": {
+        "type_data": 1,
+        "time": 1782987366,
+        "time_title": "17:16:06 02/07/2026",
+        "photo": "https://id.dauthau.net/uploads/users/daiphucvinhcncgrou.png",
+        "title": "<b>ĐẠI PHÚC VINH CNC GROUP</b> đã đăng ký <a href=\"https://iportal.vn/vi/users/register/\"><b>thành viên</b></a> thành công."
+      },
+      "1782986994": {
+        "type_data": 1,
+        "time": 1782986994,
+        "time_title": "17:09:54 02/07/2026",
+        "photo": "https://id.dauthau.net/uploads/users/buidaoanhtho2003.jpg",
+        "title": "<b>bùi đào anh thơ</b> đã đăng ký <a href=\"https://iportal.vn/vi/users/register/\"><b>thành viên</b></a> thành công."
+      },
+      "1782986777": {
+        "type_data": 1,
+        "time": 1782986777,
+        "time_title": "17:06:17 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>thuan nguyen van</b> đã đăng ký <a href=\"https://iportal.vn/vi/users/register/\"><b>thành viên</b></a> thành công."
+      },
+      "1782986503": {
+        "type_data": 1,
+        "time": 1782986503,
+        "time_title": "17:01:43 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>Thắng Hồ</b> đã đăng ký <a href=\"https://iportal.vn/vi/users/register/\"><b>thành viên</b></a> thành công."
+      },
+      "1782986423": {
+        "type_data": 1,
+        "time": 1782986423,
+        "time_title": "17:00:23 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>Huy Nguyễn Nhật</b> đã đăng ký <a href=\"https://iportal.vn/vi/users/register/\"><b>thành viên</b></a> thành công."
+      },
+      "1782986345": {
+        "type_data": 1,
+        "time": 1782986345,
+        "time_title": "16:59:05 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>Hiệp Đỗ Hữu</b> đã đăng ký <a href=\"https://iportal.vn/vi/users/register/\"><b>thành viên</b></a> thành công."
+      },
+      "1782986154": {
+        "type_data": 1,
+        "time": 1782986154,
+        "time_title": "16:55:54 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>Phúc Hoàng Minh</b> đã đăng ký <a href=\"https://iportal.vn/vi/users/register/\"><b>thành viên</b></a> thành công."
+      },
+      "1782986025": {
+        "type_data": 1,
+        "time": 1782986025,
+        "time_title": "16:53:45 02/07/2026",
+        "photo": "https://id.dauthau.net/uploads/users/phamanhtk2000.png",
+        "title": "<b>Anh Anh</b> đã đăng ký <a href=\"https://iportal.vn/vi/users/register/\"><b>thành viên</b></a> thành công."
+      },
+      "1782985998": {
+        "type_data": 1,
+        "time": 1782985998,
+        "time_title": "16:53:18 02/07/2026",
+        "photo": "https://dauthau.asia/uploads/fomo/no_avata.png",
+        "title": "<b>Hà Dương thị minh hà</b> đã đăng ký <a href=\"https://iportal.vn/vi/users/register/\"><b>thành viên</b></a> thành công."
+      }
+    }
+  }
+]

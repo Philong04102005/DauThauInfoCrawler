@@ -56,6 +56,11 @@ class Storage:
             """
         )
         self.db.execute("CREATE INDEX IF NOT EXISTS idx_cat ON records(category);")
+        # Cột bổ sung cho DB cũ (bỏ qua nếu đã có).
+        try:
+            self.db.execute("ALTER TABLE records ADD COLUMN tables_json TEXT;")
+        except sqlite3.OperationalError:
+            pass
         # Bảng full-text search (nếu SQLite hỗ trợ FTS5).
         try:
             self.db.execute(
@@ -75,13 +80,14 @@ class Storage:
             """
             INSERT INTO records
               (id, category, url, title, text, fields_json, images_json,
-               attachments_json, meta_json, crawled_at)
-            VALUES (?,?,?,?,?,?,?,?,?,?)
+               attachments_json, meta_json, tables_json, crawled_at)
+            VALUES (?,?,?,?,?,?,?,?,?,?,?)
             ON CONFLICT(id) DO UPDATE SET
               title=excluded.title, text=excluded.text,
               fields_json=excluded.fields_json, images_json=excluded.images_json,
               attachments_json=excluded.attachments_json,
-              meta_json=excluded.meta_json, crawled_at=excluded.crawled_at
+              meta_json=excluded.meta_json, tables_json=excluded.tables_json,
+              crawled_at=excluded.crawled_at
             """,
             (
                 rec_id, category_key, record.get("url"), record.get("title"),
@@ -90,6 +96,7 @@ class Storage:
                 json.dumps(record.get("images", []), ensure_ascii=False),
                 json.dumps(record.get("attachments", []), ensure_ascii=False),
                 json.dumps(record.get("meta", {}), ensure_ascii=False),
+                json.dumps(record.get("tables", []), ensure_ascii=False),
                 time.strftime("%Y-%m-%d %H:%M:%S"),
             ),
         )

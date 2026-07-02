@@ -1,0 +1,584 @@
+{
+  "url": "https://dauthau.asia/thongbao/moithau/chi-phi-xay-dung-1771942.html",
+  "title": "Chi phí xây dựng",
+  "fields": {},
+  "tables": [
+    {
+      "headers": [
+        "STT",
+        "Tên đơn vị tư vấn",
+        "Vai trò",
+        "Địa chỉ"
+      ],
+      "rows": [
+        [
+          "1",
+          "Công ty TNHH Tư Vấn Thiết kế Xây dựng Giao thông Thuỷ lợi T.H",
+          "Tư vấn lập Báo cáo kinh tế kỹ thuật",
+          "323A/9A Đào Duy Anh, Phường Đức Nhuận, Thành phố Hồ Chí Minh"
+        ],
+        [
+          "2",
+          "Công ty TNHH Thiết kế Xây dựng Nam An",
+          "Tư vấn thẩm tra Báo cáo kinh tế kỹ thuật",
+          "Số 32 đường Bến Cần Giuộc, Phường Phú Định, Thành phố Hồ Chí Minh"
+        ],
+        [
+          "3",
+          "Công ty TNHH Thiết kế Kiến trúc và Xây dựng Nam Hà",
+          "Tư vấn lập E-HSMT, đánh giá E-HSDT",
+          "14H đường Phan Văn Trị, Phường Hạnh Thông, Thành phố Hồ Chí Minh"
+        ],
+        [
+          "4",
+          "Công ty TNHH Tư vấn Xây dựng và Thương mại Thảo Nghi",
+          "Tư vấn thẩm định E-HSMT, thẩm định kết quả lựa chọn nhà thầu",
+          "123/23G đường số 9, khu phố 53, Phường Linh Xuân, Thành phố Hồ Chí Minh"
+        ],
+        [
+          "5",
+          "Công ty TNHH Tư vấn Thiết kế và Thi công Xây dựng Gia Hưng",
+          "Tư vấn quản lý dự án",
+          "Số 22/1 đường 440, tổ 1, khu phố 3 - - Phường Phước Long - Thành phố Hồ Chí Minh"
+        ]
+      ]
+    },
+    {
+      "headers": [
+        "STT",
+        "Loại thiết bị và đặc điểm thiết bị",
+        "Số lượng tối thiểu cần có"
+      ],
+      "rows": []
+    },
+    {
+      "headers": [],
+      "rows": [
+        [
+          "1",
+          "Ô tô tự đổ - trọng tải: 5T",
+          "1"
+        ],
+        [
+          "2",
+          "Máy cắt gạch đá – công suất: 1,7 kW",
+          "1"
+        ],
+        [
+          "3",
+          "Máy khoan bê tông cầm tay – công suất: 1,5 kW",
+          "1"
+        ],
+        [
+          "4",
+          "Máy hàn xoay chiều – công suất: 23 kW",
+          "1"
+        ],
+        [
+          "5",
+          "Tời điện – sức kéo: 0,5T",
+          "1"
+        ],
+        [
+          "6",
+          "Máy trộn bê tông – dung tích: 250 lít",
+          "1"
+        ],
+        [
+          "7",
+          "Dàn giáo (1 bộ: 42 khung + 42 chéo) (đơn vị: bộ)",
+          "3"
+        ]
+      ]
+    },
+    {
+      "headers": [
+        "STT",
+        "Mô tả công việc mời thầu",
+        "Khối lượng",
+        "Đơn vị tính",
+        "Yêu cầu kỹ thuật/Chỉ dẫn kỹ thuật chính",
+        "Ghi chú"
+      ],
+      "rows": []
+    },
+    {
+      "headers": [],
+      "rows": [
+        [
+          "1",
+          "Bê tông thành bồn cây, đá 1x2, Mác 200",
+          "0.462",
+          "m3",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "2",
+          "SXLD, tháo dỡ ván khuôn gỗ cho bê tông thành bồn cây",
+          "0.0924",
+          "100m2",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "3",
+          "Trát tường ngoài, chiều dày trát 1,5cm, vữa XM mác 75, PC40",
+          "12.32",
+          "m2",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "4",
+          "Bả bằng ma tít vào tường ngoài nhà, thành bồn cây (100% diện tích)",
+          "12.32",
+          "m2",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "5",
+          "Sơn tường, cột, trụ ngoài nhà đã bả bằng sơn nước 1 nước lót, 2 nước phủ",
+          "12.32",
+          "m2",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "6",
+          "Nạ̣o vét cát, bùn đất, rác thải",
+          "5.0419",
+          "m3",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "7",
+          "Xây gạch ống 8x8x19, xây tường thẳng chiều dày <= 30cm, chiều cao <= 6m, vữa XM mác 75, PC40",
+          "0.8921",
+          "m3",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "8",
+          "Trát tường trong, chiều dày trát 1,5cm, vữa XM mác 75, PC40",
+          "15.281",
+          "m2",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "9",
+          "Láng đáy mương thoát nước dày 2cm, vữa xi măng Mác 75",
+          "4.21",
+          "m2",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "10",
+          "Sản xuất cấu kiện bê tông đúc sẵn tấm đan đá 1x2 Mác 200",
+          "0.7889",
+          "m3",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "11",
+          "Sản xuất, lắp dựng, tháo dỡ ván khuôn bê tông đúc sẵn, ván khuôn gỗ, ván khuôn nắp đan",
+          "0.074",
+          "100m2",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "12",
+          "Công tác gia công, lắp đặt cốt thép bê tông đúc sẵn. Cốt thép tấm đan, nắp đan",
+          "0.0941",
+          "tấn",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "13",
+          "Lắp các loại cấu kiện bê tông đúc sẵn bằng thủ công, trọng lượng <= 100kg",
+          "15",
+          "1 cấu kiện",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "14",
+          "HẠNG MỤC: HỆ THỐNG ĐIỆN",
+          "",
+          "",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "15",
+          "PHẦN THÁO DỠ",
+          "",
+          "",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "16",
+          "Tháo dỡ hệ thống điện trên trần, tường",
+          "1494.76",
+          "m2",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "17",
+          "PHẦN CẢI TẠO",
+          "",
+          "",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "18",
+          "Cung cấp lắp đặt Vỏ tủ điện KT: H1000xW600xD200x1.2mm sơn tĩnh điện + Phụ kiện",
+          "1",
+          "tủ",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "19",
+          "Lắp đặt tủ điện 26 lines H385xW340xD65 gắn nổi",
+          "1",
+          "tủ",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "20",
+          "Lắp đặt tủ điện 9 lines H200xW265xD65 gắn nổi",
+          "1",
+          "tủ",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "21",
+          "Lắp đặt MCCB 3 pha, 125A - 25kA",
+          "1",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "22",
+          "Lắp đặt MCCB 3 pha, 80A - 25kA",
+          "1",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "23",
+          "Lắp đặt MCCB 3 pha, 63A - 25kA",
+          "1",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "24",
+          "Lắp đặt MCCB 3 pha, 50A - 25kA",
+          "2",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "25",
+          "Lắp đặt MCCB 3 pha, 32A - 25kA",
+          "1",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "26",
+          "Lắp đặt MCCB 2 pha, 40A - 25kA",
+          "1",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "27",
+          "Lắp đặt MCCB 2 pha, 25A - 25kA",
+          "3",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "28",
+          "Lắp đặt MCB 2 pha, 32A - 6kA",
+          "22",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "29",
+          "Lắp đặt MCB 2 pha, 25A - 6kA",
+          "8",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "30",
+          "Lắp đặt MCB 2 pha, 20A - 6kA",
+          "23",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "31",
+          "Lắp đặt MCB 1 pha, 16A - 6kA",
+          "26",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "32",
+          "Lắp đặt RCBO 2 pha, 20A - 30mA",
+          "24",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "33",
+          "Đèn tín hiệu (xanh - đỏ - vàng) 220V/15W",
+          "3",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "34",
+          "Cầu chì ống 230V/2A",
+          "3",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "35",
+          "Lắp đèn tuýp Led 2 bóng 1m2 gắn nổi - 2x20W",
+          "90",
+          "bộ",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "36",
+          "Lắp đèn tuýp Led 1 bóng 1m2 gắn nổi - 1x20W",
+          "52",
+          "bộ",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "37",
+          "Lắp đèn tuýp Led 1 bóng 0m6 gắn nổi - 1x10W",
+          "16",
+          "bộ",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "38",
+          "Lắp đặt đèn downlight Led âm trần ánh sáng trắng, ĐK 115 - 1x11W",
+          "12",
+          "bộ",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "39",
+          "Lắp đặt đèn chiếu sáng sự cố",
+          "32",
+          "bộ",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "40",
+          "Lắp đặt đèn exit",
+          "6",
+          "bộ",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "41",
+          "Lắp đặt quạt treo tường 45W - 220V",
+          "104",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "42",
+          "Lắp ổ cắm điện đôi 3 chấu 16A/220V - hộp gắn tường",
+          "67",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "43",
+          "Lắp ổ cắm điện đơn 3 chấu 16A/220V - hộp âm tường chống thấm",
+          "5",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "44",
+          "Lắp công tắc điện 1 hạt 1 chiều 10A - hộp gắn tường",
+          "9",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "45",
+          "Lắp công tắc điện 2 hạt 1 chiều 10A - hộp gắn tường",
+          "29",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "46",
+          "Lắp công tắc điện 3 hạt 1 chiều 10A - hộp gắn tường",
+          "15",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "47",
+          "Lắp công tắc điện 1 hạt 2 chiều 10A - hộp gắn tường",
+          "4",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "48",
+          "Lắp công tắc điện 3 hạt 2 chiều 10A - hộp gắn tường",
+          "8",
+          "cái",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "49",
+          "Lắp đặt đế gắn tường MCB 2 pha",
+          "4",
+          "hộp",
+          "",
+          "Tham khảo"
+        ],
+        [
+          "50",
+          "Đào đường cáp bằng thủ công, rộng <= 1m, sâu <=1m, đất cấp II",
+          "2.255",
+          "m3",
+          "",
+          "Tham khảo"
+        ]
+      ]
+    },
+    {
+      "headers": [
+        "Loại chi phí",
+        "Công thức tính",
+        "Mức phí áp dụng (VND)"
+      ],
+      "rows": [
+        [
+          "Chi phí duy trì tài khoản hàng năm",
+          "",
+          ""
+        ],
+        [
+          "Chi phí nộp hồ sơ dự thầu",
+          "",
+          ""
+        ],
+        [
+          "Chi phí nộp hồ sơ đề xuất",
+          "",
+          ""
+        ],
+        [
+          "Chi phí trúng thầu",
+          "",
+          ""
+        ],
+        [
+          "Chi phí kết nối bảo lãnh dự thầu điện tử",
+          "",
+          ""
+        ],
+        [
+          "Tổng chi phí dự kiến",
+          ""
+        ]
+      ]
+    }
+  ],
+  "text": "Thông báo mời thầu OK Đóng lại Chi phí xây dựng Đang xem Dự án Kế hoạch lựa chọn nhà thầu Đang xem Thông báo mời thầu Kết quả mở thầu Kết quả lựa chọn nhà thầu -- Bạn sẽ được thưởng nếu phát hiện cảnh báo bị sai! Xem hướng dẫn tại đây! Còn 8 ngày, 11 giờ, 48 phút để nộp HSDT Chia sẻ Copy link thành công Theo dõi In Link MSC Tìm thấy: 18:17 02/07/2026 Ghi chú: DauThau.info xác định tự động đây là gói thầu chỉ dành cho nhà thầu cấp siêu nhỏ, nhỏ (theo quy định của pháp luật doanh nghiệp) tham gia đấu thầu căn cứ theo Khoản 2, Điều 7 Nghị định số 24/2024/NĐ-CP của Chính phủ Mã TBMT IB2600328196-00 Thông báo lần đầu. Ngày đăng tải 18:16 02/07/2026 Nội dung chính Trạng thái gói thầu Đã đăng tải Lĩnh vực MSC Xây lắp Tên gói thầu Chi phí xây dựng Chủ đầu tư Trung tâm Cung ứng dịch vụ công phường Sài Gòn Mã KHLCNT PL2600180138 Tên KHLCNT Sửa chữa trường Mầm non Hoa Lư tại địa chỉ 01 Nguyễn Bỉnh Khiêm Phân loại KHLCNT Chi đầu tư phát triển Trong nước/Quốc tế Trong nước Chi tiết nguồn vốn Ngân sách Thành phố bổ sung có mục tiêu Phạm vi Trong phạm vi điều chỉnh của Luật đấu thầu Phương thức lựa chọn nhà thầu Một giai đoạn một túi hồ sơ Loại hợp đồng Trọn gói Thời gian thực hiện hợp đồng Để xem đầy đủ thông tin mời bạn Đăng nhập hoặc Đăng ký Hình thức LCNT Đấu thầu rộng rãi Thực hiện tại - Thành phố Hồ Chí Minh Thời điểm đóng thầu 09:00 11/07/2026 Hiệu lực hồ sơ dự thầu 90 Ngày Lĩnh vực AI phân loại [Xây dựng công trình khác] Ngành nghề AI phân loại [Xây dựng công trình công ích khác] Số quyết định phê duyệt 130/QĐ-TTCUDVC Ngày phê duyệt 02/07/2026 18:14 Cơ quan ra quyết định phê duyệt Trung tâm Cung ứng dịch vụ công phường Sài Gòn Quyết định phê duyệt Hồ sơ mời thầu trên Hệ thống Mua Sắm Công có thể bị nhiễm virus hoặc lỗi, một số file đòi hỏi máy tính sử dụng Hệ điều hành Windows và cần cài đặt phần mềm Client Agent (HĐH Linux và MacOS chưa thể cài đặt phần mềm Client) mới có thể tải được. Sử dụng phần mềm DauThau.info bạn có thể kiểm tra tất cả các vấn đề trên cũng như xem trước tổng dung lượng hồ sơ mời thầu nhằm đề phòng tải thiếu file. Việc tải file trực tiếp trên Hệ thống Mua Sắm Công mới đòi hỏi máy tính sử dụng Hệ điều hành Windows và cần cài đặt phần mềm Client Agent (HĐH Linux và MacOS chưa thể cài đặt phần mềm Client). Do vậy, để có thể tải file trên điện thoại thông minh, máy tính bảng hay các máy tính dùng hệ điều hành khác Windows, bạn cần sử dụng phần mềm DauThau.info để tải file. Để tải về, mời bạn Đăng nhập hoặc Đăng ký IB2600328196_QuyetDinhPheDuyetHSMT_02_07_2026.pdf File có biểu tượng này không được hệ thống mua sắm công hỗ trợ tải trực tiếp theo chế độ thường. Truy cập DauThau.info và chọn chế độ Tải về nhanh để tải file nếu bạn không sử dụng Windows có cài Agent . DauThau.info hỗ trợ tải về trên hầu hết trình duyệt và thiết bị hiện đại! Trường hợp phát hiện BMT không đính kèm đầy đủ file E-HSMT và hồ sơ thiết kế, đề nghị nhà thầu thông báo ngay cho Chủ đầu tư hoặc Người có thẩm quyền theo địa chỉ nêu tại Chương II-Bảng dữ liệu trong E-HSMT và phản ánh tới đường dây nóng Báo Đấu thầu: 024 37686611 Tham dự thầu Hình thức dự thầu Qua mạng Nhận HSDT từ 18:16 02/07/2026 đến 09:00 11/07/2026 Chi phí nộp E-HSDT 330.000 VND Địa điểm nhận E-HSDT Để xem đầy đủ thông tin mời bạn Đăng nhập hoặc Đăng ký Mở thầu Thời điểm mở thầu 09:00 11/07/2026 Địa điểm mở thầu https://muasamcong.mpi.gov.vn Giá gói thầu Để xem đầy đủ thông tin mời bạn Đăng nhập hoặc Đăng ký Bằng chữ Để xem đầy đủ thông tin mời bạn Đăng nhập hoặc Đăng ký Kết quả mở thầu Chưa có kết quả. Hãy nâng cấp lên tài khoản VIP1 để nhận thông báo qua email ngay khi kết quả được đăng tải. Kết quả lựa chọn nhà thầu Chưa có kết quả. Hãy nâng cấp lên tài khoản VIP1 để nhận thông báo qua email ngay khi kết quả được đăng tải. Bảo đảm dự thầu Hình thức đảm bảo dự thầu Cam kết (Trường hợp nhà thầu có tên trong danh sách không bảo đảm uy tín khi tham dự thầu thì hình thức bảo đảm dự thầu là Thư bảo lãnh hoặc giấy chứng nhận bảo hiểm bảo lãnh) Số tiền đảm bảo dự thầu 37.000.000 VND Số tiền bằng chữ Ba mươi bảy triệu đồng chẵn Thời hạn đảm bảo 120 ngày kể từ thời điểm đóng thầu 11/07/2026 (08/11/2026) Thông tin hồ sơ mời thầu Hồ sơ mời thầu trên Hệ thống Mua Sắm Công có thể bị nhiễm virus hoặc lỗi, một số file đòi hỏi máy tính sử dụng Hệ điều hành Windows và cần cài đặt phần mềm Client Agent (HĐH Linux và MacOS chưa thể cài đặt phần mềm Client) mới có thể tải được. Sử dụng phần mềm DauThau.info bạn có thể kiểm tra tất cả các vấn đề trên cũng như xem trước tổng dung lượng hồ sơ mời thầu nhằm đề phòng tải thiếu file. Việc tải file trực tiếp trên Hệ thống Mua Sắm Công mới đòi hỏi máy tính sử dụng Hệ điều hành Windows và cần cài đặt phần mềm Client Agent (HĐH Linux và MacOS chưa thể cài đặt phần mềm Client). Do vậy, để có thể tải file trên điện thoại thông minh, máy tính bảng hay các máy tính dùng hệ điều hành khác Windows, bạn cần sử dụng phần mềm DauThau.info để tải file. Để tải về, mời bạn Đăng nhập hoặc Đăng ký Phần 1: Thủ tục đấu thầu Chương I: Chỉ dẫn nhà thầu Chương II: Bảng dữ liệu Chương III: Tiêu chuẩn đánh giá HSDT MUC 3 (MN Hoa Lu).pdf Chương IV: Biểu mẫu mời thầu và dự thầu Biểu mẫu mời thầu Biểu mẫu dự thầu Phần 2: Yêu cầu về kỹ thuật Chương V: Yêu cầu về kỹ thuật CHUONG V (MN Hoa Lu) ok .pdf HS TK Ban ve thi cong_Truong MN Hoa Lu.pdf Phần 3: Điều kiện hợp đồng và biểu mẫu hợp đồng Chương VI: Điều kiện chung của hợp đồng Chương VII: Điều kiện cụ thể của hợp đồng Chương VIII: Biểu mẫu hợp đồng File có biểu tượng này không được hệ thống mua sắm công hỗ trợ tải trực tiếp theo chế độ thường. Truy cập DauThau.info và chọn chế độ Tải về nhanh để tải file nếu bạn không sử dụng Windows có cài Agent . DauThau.info hỗ trợ tải về trên hầu hết trình duyệt và thiết bị hiện đại! Trường hợp phát hiện BMT không đính kèm đầy đủ file E-HSMT và hồ sơ thiết kế, đề nghị nhà thầu thông báo ngay cho Chủ đầu tư hoặc Người có thẩm quyền theo địa chỉ nêu tại Chương II-Bảng dữ liệu trong E-HSMT và phản ánh tới đường dây nóng Báo Đấu thầu: 024 37686611 Danh sách đơn vị tư vấn đã tham gia gói thầu STT Tên đơn vị tư vấn Vai trò Địa chỉ 1 Công ty TNHH Tư Vấn Thiết kế Xây dựng Giao thông Thuỷ lợi T.H Tư vấn lập Báo cáo kinh tế kỹ thuật 323A/9A Đào Duy Anh, Phường Đức Nhuận, Thành phố Hồ Chí Minh 2 Công ty TNHH Thiết kế Xây dựng Nam An Tư vấn thẩm tra Báo cáo kinh tế kỹ thuật Số 32 đường Bến Cần Giuộc, Phường Phú Định, Thành phố Hồ Chí Minh 3 Công ty TNHH Thiết kế Kiến trúc và Xây dựng Nam Hà Tư vấn lập E-HSMT, đánh giá E-HSDT 14H đường Phan Văn Trị, Phường Hạnh Thông, Thành phố Hồ Chí Minh 4 Công ty TNHH Tư vấn Xây dựng và Thương mại Thảo Nghi Tư vấn thẩm định E-HSMT, thẩm định kết quả lựa chọn nhà thầu 123/23G đường số 9, khu phố 53, Phường Linh Xuân, Thành phố Hồ Chí Minh 5 Công ty TNHH Tư vấn Thiết kế và Thi công Xây dựng Gia Hưng Tư vấn quản lý dự án Số 22/1 đường 440, tổ 1, khu phố 3 - - Phường Phước Long - Thành phố Hồ Chí Minh Yêu cầu về thiết bị thi công chủ yếu Tải file Excel STT Loại thiết bị và đặc điểm thiết bị Số lượng tối thiểu cần có 1 Ô tô tự đổ - trọng tải: 5T 1 2 Máy cắt gạch đá – công suất: 1,7 kW 1 3 Máy khoan bê tông cầm tay – công suất: 1,5 kW 1 4 Máy hàn xoay chiều – công suất: 23 kW 1 5 Tời điện – sức kéo: 0,5T 1 6 Máy trộn bê tông – dung tích: 250 lít 1 7 Dàn giáo (1 bộ: 42 khung + 42 chéo) (đơn vị: bộ) 3 Danh sách hạng mục xây lắp: Mẫu số 01A. Bảng kê hạng mục công việc: Tải file Excel Xem lịch sử yêu cầu tải dữ liệu hàng hóa tại đây STT Mô tả công việc mời thầu Khối lượng Đơn vị tính Yêu cầu kỹ thuật/Chỉ dẫn kỹ thuật chính Ghi chú 1 Bê tông thành bồn cây, đá 1x2, Mác 200 0.462 m3 Tham khảo 2 SXLD, tháo dỡ ván khuôn gỗ cho bê tông thành bồn cây 0.0924 100m2 Tham khảo 3 Trát tường ngoài, chiều dày trát 1,5cm, vữa XM mác 75, PC40 12.32 m2 Tham khảo 4 Bả bằng ma tít vào tường ngoài nhà, thành bồn cây (100% diện tích) 12.32 m2 Tham khảo 5 Sơn tường, cột, trụ ngoài nhà đã bả bằng sơn nước 1 nước lót, 2 nước phủ 12.32 m2 Tham khảo 6 Nạ̣o vét cát, bùn đất, rác thải 5.0419 m3 Tham khảo 7 Xây gạch ống 8x8x19, xây tường thẳng chiều dày <= 30cm, chiều cao <= 6m, vữa XM mác 75, PC40 0.8921 m3 Tham khảo 8 Trát tường trong, chiều dày trát 1,5cm, vữa XM mác 75, PC40 15.281 m2 Tham khảo 9 Láng đáy mương thoát nước dày 2cm, vữa xi măng Mác 75 4.21 m2 Tham khảo 10 Sản xuất cấu kiện bê tông đúc sẵn tấm đan đá 1x2 Mác 200 0.7889 m3 Tham khảo 11 Sản xuất, lắp dựng, tháo dỡ ván khuôn bê tông đúc sẵn, ván khuôn gỗ, ván khuôn nắp đan 0.074 100m2 Tham khảo 12 Công tác gia công, lắp đặt cốt thép bê tông đúc sẵn. Cốt thép tấm đan, nắp đan 0.0941 tấn Tham khảo 13 Lắp các loại cấu kiện bê tông đúc sẵn bằng thủ công, trọng lượng <= 100kg 15 1 cấu kiện Tham khảo 14 HẠNG MỤC: HỆ THỐNG ĐIỆN Tham khảo 15 PHẦN THÁO DỠ Tham khảo 16 Tháo dỡ hệ thống điện trên trần, tường 1494.76 m2 Tham khảo 17 PHẦN CẢI TẠO Tham khảo 18 Cung cấp lắp đặt Vỏ tủ điện KT: H1000xW600xD200x1.2mm sơn tĩnh điện + Phụ kiện 1 tủ Tham khảo 19 Lắp đặt tủ điện 26 lines H385xW340xD65 gắn nổi 1 tủ Tham khảo 20 Lắp đặt tủ điện 9 lines H200xW265xD65 gắn nổi 1 tủ Tham khảo 21 Lắp đặt MCCB 3 pha, 125A - 25kA 1 cái Tham khảo 22 Lắp đặt MCCB 3 pha, 80A - 25kA 1 cái Tham khảo 23 Lắp đặt MCCB 3 pha, 63A - 25kA 1 cái Tham khảo 24 Lắp đặt MCCB 3 pha, 50A - 25kA 2 cái Tham khảo 25 Lắp đặt MCCB 3 pha, 32A - 25kA 1 cái Tham khảo 26 Lắp đặt MCCB 2 pha, 40A - 25kA 1 cái Tham khảo 27 Lắp đặt MCCB 2 pha, 25A - 25kA 3 cái Tham khảo 28 Lắp đặt MCB 2 pha, 32A - 6kA 22 cái Tham khảo 29 Lắp đặt MCB 2 pha, 25A - 6kA 8 cái Tham khảo 30 Lắp đặt MCB 2 pha, 20A - 6kA 23 cái Tham khảo 31 Lắp đặt MCB 1 pha, 16A - 6kA 26 cái Tham khảo 32 Lắp đặt RCBO 2 pha, 20A - 30mA 24 cái Tham khảo 33 Đèn tín hiệu (xanh - đỏ - vàng) 220V/15W 3 cái Tham khảo 34 Cầu chì ống 230V/2A 3 cái Tham khảo 35 Lắp đèn tuýp Led 2 bóng 1m2 gắn nổi - 2x20W 90 bộ Tham khảo 36 Lắp đèn tuýp Led 1 bóng 1m2 gắn nổi - 1x20W 52 bộ Tham khảo 37 Lắp đèn tuýp Led 1 bóng 0m6 gắn nổi - 1x10W 16 bộ Tham khảo 38 Lắp đặt đèn downlight Led âm trần ánh sáng trắng, ĐK 115 - 1x11W 12 bộ Tham khảo 39 Lắp đặt đèn chiếu sáng sự cố 32 bộ Tham khảo 40 Lắp đặt đèn exit 6 bộ Tham khảo 41 Lắp đặt quạt treo tường 45W - 220V 104 cái Tham khảo 42 Lắp ổ cắm điện đôi 3 chấu 16A/220V - hộp gắn tường 67 cái Tham khảo 43 Lắp ổ cắm điện đơn 3 chấu 16A/220V - hộp âm tường chống thấm 5 cái Tham khảo 44 Lắp công tắc điện 1 hạt 1 chiều 10A - hộp gắn tường 9 cái Tham khảo 45 Lắp công tắc điện 2 hạt 1 chiều 10A - hộp gắn tường 29 cái Tham khảo 46 Lắp công tắc điện 3 hạt 1 chiều 10A - hộp gắn tường 15 cái Tham khảo 47 Lắp công tắc điện 1 hạt 2 chiều 10A - hộp gắn tường 4 cái Tham khảo 48 Lắp công tắc điện 3 hạt 2 chiều 10A - hộp gắn tường 8 cái Tham khảo 49 Lắp đặt đế gắn tường MCB 2 pha 4 hộp Tham khảo 50 Đào đường cáp bằng thủ công, rộng <= 1m, sâu <=1m, đất cấp II 2.255 m3 Tham khảo « 1 2 3 4 5 » Tiện ích dành cho bạn Theo dõi thông báo mời thầu Chức năng Theo dõi gói thầu giúp bạn nhanh chóng và kịp thời nhận thông báo qua email các thay đổi của gói thầu \"Chi phí xây dựng\". Ngoài ra, bạn cũng sẽ nhận được thông báo kết quả mời thầu và kết quả lựa chọn nhà thầu khi kết quả được đăng tải lên hệ thống. Đăng ký theo dõi Nhận thông báo mời thầu tương tự qua email Để trở thành một trong những người đầu tiên nhận qua email các thông báo mời thầu của các gói thầu tương tự gói: \"Chi phí xây dựng\" ngay khi chúng được đăng tải, hãy đăng ký sử dụng gói VIP 1 của DauThau.info. Đăng ký gói VIP 1 Tiện ích tính toán chi phí dự thầu Chi phí liên quan đến nhà thầu khi thực hiện đấu thầu trên mua sắm công ( Điều 12 Nghị định 24/2024/NĐ-CP ) Loại chi phí Công thức tính Mức phí áp dụng (VND) Chi phí duy trì tài khoản hàng năm Chi phí nộp hồ sơ dự thầu Chi phí nộp hồ sơ đề xuất Chi phí trúng thầu Chi phí kết nối bảo lãnh dự thầu điện tử Tổng chi phí dự kiến Đăng nhập Để xem chi phí dự thầu Bạn cần Đăng nhập hoặc Đăng ký để xem chi phí dự thầu. Hỗ trợ và báo lỗi Hỗ trợ Bạn cần hỗ trợ gì? --- Chọn loại yêu cầu --- Kỹ thuật Tư vấn đấu thầu (Chuyên gia hoặc Trí tuệ nhân tạo) (Tính phí) Đề xuất tính năng/ Đóng góp ý tưởng Báo lỗi Khác Hỗ trợ khách hàng VIP Tạo yêu cầu Báo lỗi Dữ liệu trên trang có lỗi? Bạn sẽ được thưởng nếu phát hiện ra gói thầu và KHLCNT chưa đáp ứng quy định về đấu thầu qua mạng nhưng DauThau.info không cảnh báo hoặc cảnh báo sai. Báo lỗi Đã xem: 0",
+  "images": [],
+  "attachments": [],
+  "meta": {
+    "description": ", mời thầu Chi phí xây dựng: Ngân sách Thành phố bổ sung có mục tiêu",
+    "author": "DauThau.info - Siêu phần mềm phân tích và săn tin thầu",
+    "copyright": "DauThau.info - Siêu phần mềm phân tích và săn tin thầu [info@dauthau.asia]",
+    "apple-mobile-web-app-capable": "yes",
+    "google-site-verification": "loKFfqZODOQrEwzLkZEoYYmRySBeMcK99oPdrc3Y_jY",
+    "generator": "NukeViet v5.0",
+    "viewport": "width=device-width, initial-scale=1",
+    "og:title": "Chi phí xây dựng",
+    "og:type": "website",
+    "og:description": ", mời thầu Chi phí xây dựng: Ngân sách Thành phố bổ sung có mục tiêu",
+    "og:site_name": "DauThau.info - Siêu phần mềm phân tích và săn tin thầu",
+    "og:image": "https://dauthau.asia/uploads/socials-image/thong-bao-moi-thau-dauthau-info.png",
+    "og:url": "https://dauthau.asia/thongbao/moithau/chi-phi-xay-dung-1771942.html",
+    "og:locale": "vi_VN",
+    "fb:app_id": "184485808818750",
+    "fb:pages": "1912758555720941",
+    "fb:admins": "100001604800244",
+    "nv-popups": "1",
+    "nv-popups-pageid": "0",
+    "nv-popups-module": "bidding",
+    "nv-popups-op": "thongbao"
+  },
+  "requires_login": true,
+  "id": "f70db774516bdd1e",
+  "category": "thongbao_moithau",
+  "category_name": "Thông báo mời thầu (TBMT)",
+  "crawled_at": "2026-07-02 21:11:46",
+  "downloaded_assets": {
+    "images": [],
+    "attachments": []
+  }
+}

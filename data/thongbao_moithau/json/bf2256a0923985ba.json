@@ -1,0 +1,695 @@
+{
+  "url": "https://dauthau.asia/thongbao/moithau/cung-cap-lap-dat-thiet-bi-1771948.html",
+  "title": "Cung cấp, lắp đặt thiết bị",
+  "fields": {},
+  "tables": [
+    {
+      "headers": [
+        "STT",
+        "Tên đơn vị tư vấn",
+        "Vai trò",
+        "Địa chỉ"
+      ],
+      "rows": [
+        [
+          "1",
+          "Liên danh Công ty cổ phần tư vấn VIGLACERA - Công ty cổ phần xây lắp và đầu tư Thái Linh - Công ty Cổ phần điện lực Sông Hồng",
+          "Tư vấn lập thiết kế",
+          "Liên danh Công ty cổ phần tư vấn VIGLACERA - Công ty cổ phần xây lắp và đầu tư Thái Linh - Công ty Cổ phần điện lực Sông Hồng"
+        ],
+        [
+          "2",
+          "Công ty TNHH Kiểm toán và tư vấn APEC",
+          "Tư vấn thẩm định giá",
+          "Số 10A, ngõ 1295/2, đường Giải Phóng, Phường Hoàng Mai, TP Hà Nội."
+        ],
+        [
+          "3",
+          "CÔNG TY CỔ PHẦN TƯ VẤN ĐẦU TƯ XÂY DỰNG VÀ THƯƠNG MẠI Á CHÂU",
+          "Tư vấn lập E-HSMT",
+          "Số 155 phố An Trạch - - Phường Ô Chợ Dừa - Thành phố Hà Nội"
+        ],
+        [
+          "4",
+          "CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ TƯ VẤN VIỄN ĐÔNG",
+          "Tư vấn thẩm định E-HSMT",
+          "Số 17, ngõ 41 Tập thể Lao động xã hội, đường Trần Duy Hưng - - Phường Yên Hòa - Thành phố Hà Nội"
+        ],
+        [
+          "5",
+          "CÔNG TY CỔ PHẦN TƯ VẤN ĐẦU TƯ XÂY DỰNG VÀ THƯƠNG MẠI Á CHÂU",
+          "Tư vấn đánh giá E-HSDT",
+          "Số 155 phố An Trạch - - Phường Ô Chợ Dừa - Thành phố Hà Nội"
+        ],
+        [
+          "6",
+          "Công ty cổ phần đầu tư và tư vấn Viễn Đông",
+          "Tư vấn thẩm định kết quả lựa chọn nhà thầu",
+          "Số 17, ngõ 41 Tập thể Lao động xã hội, đường Trần Duy Hưng, Phường Yên Hòa, TP Hà Nội"
+        ]
+      ]
+    },
+    {
+      "headers": [
+        "STT",
+        "Tên hàng hoá",
+        "Khối lượng",
+        "Đơn vị tính",
+        "Mô tả",
+        "Địa điểm thực hiện",
+        "Ngày giao hàng sớm nhất",
+        "Ngày giao hàng muộn nhất",
+        "Ghi chú"
+      ],
+      "rows": []
+    },
+    {
+      "headers": [],
+      "rows": [
+        [
+          "1",
+          "Máy in đen trắng khổ A4",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "2",
+          "Máy vi tính để bàn",
+          "2",
+          "Bộ",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "3",
+          "Màn hình tương tác 55-75inch kèm giá treo tường + dây HDMI",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "4",
+          "Đàn organ cho học sinh + chân đàn",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "5",
+          "Loa hộp treo tường",
+          "4",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "6",
+          "Âm ly mixer",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "7",
+          "Dây loa",
+          "40",
+          "m",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "8",
+          "Ổ cắm điện",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "9",
+          "Dây hoa sen",
+          "2",
+          "Sợi",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "10",
+          "Công đấu nối và chuyển giao công nghệ",
+          "2",
+          "Hệ thống",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "11",
+          "Máy lọc không khí",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "12",
+          "Cây nước nóng lạnh",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "13",
+          "Tủ thuốc",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "14",
+          "Điều hòa nhiệt độ 2 chiều 18.000BTU",
+          "6",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "15",
+          "Bàn vuông",
+          "4",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "16",
+          "Bàn tròn",
+          "4",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "17",
+          "Bàn hình hoa",
+          "12",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "18",
+          "Ghế học sinh",
+          "50",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "19",
+          "Bàn làm việc giáo viên",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "20",
+          "Ghế giáo viên",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "21",
+          "Chăn đông cho trẻ",
+          "60",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "22",
+          "Chăn hè cho trẻ",
+          "60",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "23",
+          "Đệm cho trẻ",
+          "60",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "24",
+          "Gối cho trẻ",
+          "60",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "25",
+          "Giá để giày dép (Kết hợp tủ)",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "26",
+          "Tủ (giá) ca cốc",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "27",
+          "Giá vẽ",
+          "4",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "28",
+          "Giá phơi khăn (Khay đựng khăn có nắp + giá đựng)",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "29",
+          "Bàn thay bỉm",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "30",
+          "Cũi trẻ em",
+          "4",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "31",
+          "Xe đẩy trẻ em",
+          "4",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "32",
+          "Thùng rác inox",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "33",
+          "Bảng 2 mặt",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "34",
+          "Bảng ghim gài thông tin (1.2x0.8)",
+          "4",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "35",
+          "Bảng ghim chủ đề (1.2x1)",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "36",
+          "Bảng ghim trưng bày (1.2x0.9)",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "37",
+          "Bảng tên phòng",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "38",
+          "Bộ xếp hình con vật nhà trẻ, xây dựng nhà trẻ (2 hộp/bộ)",
+          "2",
+          "Bộ",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "39",
+          "Bộ xếp hình dã ngoại, thú nuôi, trường học, cứu hỏa, bệnh viện (5 hộp/bộ)",
+          "2",
+          "Bộ",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "40",
+          "Bộ Đồ Chơi Giáo Cụ Montessori 8 Món Gỗ Cao Cấp",
+          "2",
+          "Bộ",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "41",
+          "Đồ Chơi Dụng Cụ Sửa Chữa Đồ Dùng Gia Đình Đa Năng",
+          "2",
+          "Bộ",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "42",
+          "Bộ đồ chơi liên hoàn (cầu trượt)",
+          "2",
+          "Bộ",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "43",
+          "Ga trải đệm",
+          "60",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "44",
+          "Bàn ô sin chữ nhật",
+          "4",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "45",
+          "Bàn ô sin tròn",
+          "2",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "46",
+          "Máy in đen trắng khổ A4",
+          "3",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "47",
+          "Máy vi tính để bàn",
+          "3",
+          "Bộ",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "48",
+          "Màn hình tương tác 55-75inch kèm giá treo tường + dây HDMI",
+          "3",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "49",
+          "Đàn organ cho học sinh + chân đàn",
+          "3",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ],
+        [
+          "50",
+          "Loa hộp treo tường",
+          "6",
+          "Chiếc",
+          "Theo quy định tại Chương V",
+          "Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội",
+          "300",
+          "450",
+          "Tham khảo"
+        ]
+      ]
+    },
+    {
+      "headers": [
+        "Loại chi phí",
+        "Công thức tính",
+        "Mức phí áp dụng (VND)"
+      ],
+      "rows": [
+        [
+          "Chi phí duy trì tài khoản hàng năm",
+          "",
+          ""
+        ],
+        [
+          "Chi phí nộp hồ sơ dự thầu",
+          "",
+          ""
+        ],
+        [
+          "Chi phí nộp hồ sơ đề xuất",
+          "",
+          ""
+        ],
+        [
+          "Chi phí trúng thầu",
+          "",
+          ""
+        ],
+        [
+          "Chi phí kết nối bảo lãnh dự thầu điện tử",
+          "",
+          ""
+        ],
+        [
+          "Tổng chi phí dự kiến",
+          ""
+        ]
+      ]
+    }
+  ],
+  "text": "Thông báo mời thầu OK Đóng lại Cung cấp, lắp đặt thiết bị Đang xem Dự án Kế hoạch lựa chọn nhà thầu Đang xem Thông báo mời thầu Kết quả mở thầu Kết quả lựa chọn nhà thầu -- Bạn sẽ được thưởng nếu phát hiện cảnh báo bị sai! Xem hướng dẫn tại đây! Còn 17 ngày, 19 giờ, 48 phút để nộp HSDT Chia sẻ Copy link thành công Theo dõi In Link MSC Tìm thấy: 19:26 02/07/2026 Mã TBMT IB2600339517-00 Thông báo lần đầu. Ngày đăng tải 19:25 02/07/2026 Nội dung chính Trạng thái gói thầu Đã đăng tải Lĩnh vực MSC Hàng hóa Tên dự án Xây dựng, cải tạo trường Mầm non 20-10, quận Hoàn Kiếm Tên gói thầu Cung cấp, lắp đặt thiết bị Chủ đầu tư BAN QUẢN LÝ DỰ ÁN ĐẦU TƯ - HẠ TẦNG PHƯỜNG CỬA NAM Mã KHLCNT PL2600177744 Tên KHLCNT QUYẾT ĐỊNH Phê duyệt điều chỉnh, bổ sung Kế hoạch lựa chọn nhà thầu dự án Xây dựng, cải tạo trường Mầm non 20-10, quận Hoàn Kiếm Phân loại KHLCNT Chi đầu tư phát triển Trong nước/Quốc tế Trong nước Chi tiết nguồn vốn Hỗ trợ mục tiêu thành phố Phạm vi Trong phạm vi điều chỉnh của Luật đấu thầu Phương thức lựa chọn nhà thầu Một giai đoạn một túi hồ sơ Loại hợp đồng Trọn gói Thời gian thực hiện hợp đồng Để xem đầy đủ thông tin mời bạn Đăng nhập hoặc Đăng ký Hình thức LCNT Đấu thầu rộng rãi Thực hiện tại - Thành phố Hà Nội Thời điểm đóng thầu 17:00 20/07/2026 Hiệu lực hồ sơ dự thầu 90 Ngày Lĩnh vực AI phân loại [Mua sắm hàng hóa khác] Ngành nghề AI phân loại [Bán buôn vật liệu, thiết bị lắp đặt khác trong xây dựng] Số quyết định phê duyệt 48QĐ-BQLDAĐTHT9 Ngày phê duyệt 02/07/2026 19:24 Cơ quan ra quyết định phê duyệt BAN QUẢN LÝ DỰ ÁN ĐẦU TƯ - HẠ TẦNG PHƯỜNG CỬA NAM Quyết định phê duyệt Hồ sơ mời thầu trên Hệ thống Mua Sắm Công có thể bị nhiễm virus hoặc lỗi, một số file đòi hỏi máy tính sử dụng Hệ điều hành Windows và cần cài đặt phần mềm Client Agent (HĐH Linux và MacOS chưa thể cài đặt phần mềm Client) mới có thể tải được. Sử dụng phần mềm DauThau.info bạn có thể kiểm tra tất cả các vấn đề trên cũng như xem trước tổng dung lượng hồ sơ mời thầu nhằm đề phòng tải thiếu file. Việc tải file trực tiếp trên Hệ thống Mua Sắm Công mới đòi hỏi máy tính sử dụng Hệ điều hành Windows và cần cài đặt phần mềm Client Agent (HĐH Linux và MacOS chưa thể cài đặt phần mềm Client). Do vậy, để có thể tải file trên điện thoại thông minh, máy tính bảng hay các máy tính dùng hệ điều hành khác Windows, bạn cần sử dụng phần mềm DauThau.info để tải file. Để tải về, mời bạn Đăng nhập hoặc Đăng ký IB2600339517_QuyetDinhPheDuyetHSMT_02_07_2026.pdf File có biểu tượng này không được hệ thống mua sắm công hỗ trợ tải trực tiếp theo chế độ thường. Truy cập DauThau.info và chọn chế độ Tải về nhanh để tải file nếu bạn không sử dụng Windows có cài Agent . DauThau.info hỗ trợ tải về trên hầu hết trình duyệt và thiết bị hiện đại! Trường hợp phát hiện BMT không đính kèm đầy đủ file E-HSMT và hồ sơ thiết kế, đề nghị nhà thầu thông báo ngay cho Chủ đầu tư hoặc Người có thẩm quyền theo địa chỉ nêu tại Chương II-Bảng dữ liệu trong E-HSMT và phản ánh tới đường dây nóng Báo Đấu thầu: 024 37686611 Tham dự thầu Hình thức dự thầu Qua mạng Nhận HSDT từ 19:25 02/07/2026 đến 17:00 20/07/2026 Chi phí nộp E-HSDT 330.000 VND Địa điểm nhận E-HSDT Để xem đầy đủ thông tin mời bạn Đăng nhập hoặc Đăng ký Mở thầu Thời điểm mở thầu 17:00 20/07/2026 Địa điểm mở thầu https://muasamcong.mpi.gov.vn Giá gói thầu Để xem đầy đủ thông tin mời bạn Đăng nhập hoặc Đăng ký Bằng chữ Để xem đầy đủ thông tin mời bạn Đăng nhập hoặc Đăng ký Dự toán gói thầu Để xem đầy đủ thông tin mời bạn Đăng nhập hoặc Đăng ký Bằng chữ Để xem đầy đủ thông tin mời bạn Đăng nhập hoặc Đăng ký Kết quả mở thầu Chưa có kết quả. Hãy nâng cấp lên tài khoản VIP1 để nhận thông báo qua email ngay khi kết quả được đăng tải. Kết quả lựa chọn nhà thầu Chưa có kết quả. Hãy nâng cấp lên tài khoản VIP1 để nhận thông báo qua email ngay khi kết quả được đăng tải. Bảo đảm dự thầu Hình thức đảm bảo dự thầu Thư bảo lãnh hoặc giấy chứng nhận bảo hiểm bảo lãnh Số tiền đảm bảo dự thầu 800.000.000 VND Số tiền bằng chữ Tám trăm triệu đồng chẵn Thời hạn đảm bảo 120 ngày kể từ thời điểm đóng thầu 20/07/2026 (17/11/2026) Thông tin hồ sơ mời thầu Hồ sơ mời thầu trên Hệ thống Mua Sắm Công có thể bị nhiễm virus hoặc lỗi, một số file đòi hỏi máy tính sử dụng Hệ điều hành Windows và cần cài đặt phần mềm Client Agent (HĐH Linux và MacOS chưa thể cài đặt phần mềm Client) mới có thể tải được. Sử dụng phần mềm DauThau.info bạn có thể kiểm tra tất cả các vấn đề trên cũng như xem trước tổng dung lượng hồ sơ mời thầu nhằm đề phòng tải thiếu file. Việc tải file trực tiếp trên Hệ thống Mua Sắm Công mới đòi hỏi máy tính sử dụng Hệ điều hành Windows và cần cài đặt phần mềm Client Agent (HĐH Linux và MacOS chưa thể cài đặt phần mềm Client). Do vậy, để có thể tải file trên điện thoại thông minh, máy tính bảng hay các máy tính dùng hệ điều hành khác Windows, bạn cần sử dụng phần mềm DauThau.info để tải file. Để tải về, mời bạn Đăng nhập hoặc Đăng ký Phần 1: Thủ tục đấu thầu Chương I: Chỉ dẫn nhà thầu Chương II: Bảng dữ liệu Chương III: Tiêu chuẩn đánh giá HSDT Muc 3.pdf Chương IV: Biểu mẫu mời thầu và dự thầu Biểu mẫu mời thầu Biểu mẫu dự thầu Phần 2: Yêu cầu về kỹ thuật Chương V: Yêu cầu về kỹ thuật Chuong V.rar Phần 3: Điều kiện hợp đồng và biểu mẫu hợp đồng Chương VI. ĐIỀU KIỆN CHUNG CỦA THỎA THUẬN KHUNG Chương VII: Điều kiện cụ thể của hợp đồng Chương VI: Thỏa thuận khung Phần 4. Biểu mẫu hợp đồng File có biểu tượng này không được hệ thống mua sắm công hỗ trợ tải trực tiếp theo chế độ thường. Truy cập DauThau.info và chọn chế độ Tải về nhanh để tải file nếu bạn không sử dụng Windows có cài Agent . DauThau.info hỗ trợ tải về trên hầu hết trình duyệt và thiết bị hiện đại! Trường hợp phát hiện BMT không đính kèm đầy đủ file E-HSMT và hồ sơ thiết kế, đề nghị nhà thầu thông báo ngay cho Chủ đầu tư hoặc Người có thẩm quyền theo địa chỉ nêu tại Chương II-Bảng dữ liệu trong E-HSMT và phản ánh tới đường dây nóng Báo Đấu thầu: 024 37686611 Danh sách đơn vị tư vấn đã tham gia gói thầu STT Tên đơn vị tư vấn Vai trò Địa chỉ 1 Liên danh Công ty cổ phần tư vấn VIGLACERA - Công ty cổ phần xây lắp và đầu tư Thái Linh - Công ty Cổ phần điện lực Sông Hồng Tư vấn lập thiết kế Liên danh Công ty cổ phần tư vấn VIGLACERA - Công ty cổ phần xây lắp và đầu tư Thái Linh - Công ty Cổ phần điện lực Sông Hồng 2 Công ty TNHH Kiểm toán và tư vấn APEC Tư vấn thẩm định giá Số 10A, ngõ 1295/2, đường Giải Phóng, Phường Hoàng Mai, TP Hà Nội. 3 CÔNG TY CỔ PHẦN TƯ VẤN ĐẦU TƯ XÂY DỰNG VÀ THƯƠNG MẠI Á CHÂU Tư vấn lập E-HSMT Số 155 phố An Trạch - - Phường Ô Chợ Dừa - Thành phố Hà Nội 4 CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ TƯ VẤN VIỄN ĐÔNG Tư vấn thẩm định E-HSMT Số 17, ngõ 41 Tập thể Lao động xã hội, đường Trần Duy Hưng - - Phường Yên Hòa - Thành phố Hà Nội 5 CÔNG TY CỔ PHẦN TƯ VẤN ĐẦU TƯ XÂY DỰNG VÀ THƯƠNG MẠI Á CHÂU Tư vấn đánh giá E-HSDT Số 155 phố An Trạch - - Phường Ô Chợ Dừa - Thành phố Hà Nội 6 Công ty cổ phần đầu tư và tư vấn Viễn Đông Tư vấn thẩm định kết quả lựa chọn nhà thầu Số 17, ngõ 41 Tập thể Lao động xã hội, đường Trần Duy Hưng, Phường Yên Hòa, TP Hà Nội Danh sách hàng hóa: Mẫu số 01A – Phạm vi cung cấp hàng hóa: Tải file Excel Xem lịch sử yêu cầu tải dữ liệu hàng hóa tại đây STT Tên hàng hoá Khối lượng Đơn vị tính Mô tả Địa điểm thực hiện Ngày giao hàng sớm nhất Ngày giao hàng muộn nhất Ghi chú 1 Máy in đen trắng khổ A4 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 2 Máy vi tính để bàn 2 Bộ Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 3 Màn hình tương tác 55-75inch kèm giá treo tường + dây HDMI 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 4 Đàn organ cho học sinh + chân đàn 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 5 Loa hộp treo tường 4 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 6 Âm ly mixer 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 7 Dây loa 40 m Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 8 Ổ cắm điện 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 9 Dây hoa sen 2 Sợi Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 10 Công đấu nối và chuyển giao công nghệ 2 Hệ thống Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 11 Máy lọc không khí 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 12 Cây nước nóng lạnh 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 13 Tủ thuốc 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 14 Điều hòa nhiệt độ 2 chiều 18.000BTU 6 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 15 Bàn vuông 4 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 16 Bàn tròn 4 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 17 Bàn hình hoa 12 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 18 Ghế học sinh 50 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 19 Bàn làm việc giáo viên 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 20 Ghế giáo viên 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 21 Chăn đông cho trẻ 60 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 22 Chăn hè cho trẻ 60 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 23 Đệm cho trẻ 60 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 24 Gối cho trẻ 60 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 25 Giá để giày dép (Kết hợp tủ) 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 26 Tủ (giá) ca cốc 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 27 Giá vẽ 4 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 28 Giá phơi khăn (Khay đựng khăn có nắp + giá đựng) 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 29 Bàn thay bỉm 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 30 Cũi trẻ em 4 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 31 Xe đẩy trẻ em 4 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 32 Thùng rác inox 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 33 Bảng 2 mặt 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 34 Bảng ghim gài thông tin (1.2x0.8) 4 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 35 Bảng ghim chủ đề (1.2x1) 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 36 Bảng ghim trưng bày (1.2x0.9) 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 37 Bảng tên phòng 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 38 Bộ xếp hình con vật nhà trẻ, xây dựng nhà trẻ (2 hộp/bộ) 2 Bộ Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 39 Bộ xếp hình dã ngoại, thú nuôi, trường học, cứu hỏa, bệnh viện (5 hộp/bộ) 2 Bộ Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 40 Bộ Đồ Chơi Giáo Cụ Montessori 8 Món Gỗ Cao Cấp 2 Bộ Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 41 Đồ Chơi Dụng Cụ Sửa Chữa Đồ Dùng Gia Đình Đa Năng 2 Bộ Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 42 Bộ đồ chơi liên hoàn (cầu trượt) 2 Bộ Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 43 Ga trải đệm 60 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 44 Bàn ô sin chữ nhật 4 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 45 Bàn ô sin tròn 2 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 46 Máy in đen trắng khổ A4 3 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 47 Máy vi tính để bàn 3 Bộ Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 48 Màn hình tương tác 55-75inch kèm giá treo tường + dây HDMI 3 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 49 Đàn organ cho học sinh + chân đàn 3 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo 50 Loa hộp treo tường 6 Chiếc Theo quy định tại Chương V Số 40 phố Thợ Nhuộm, phường Cửa Nam, Thành phố Hà Nội 300 450 Tham khảo « 1 2 3 ... 19 20 21 » Tiện ích dành cho bạn Theo dõi thông báo mời thầu Chức năng Theo dõi gói thầu giúp bạn nhanh chóng và kịp thời nhận thông báo qua email các thay đổi của gói thầu \"Cung cấp, lắp đặt thiết bị\". Ngoài ra, bạn cũng sẽ nhận được thông báo kết quả mời thầu và kết quả lựa chọn nhà thầu khi kết quả được đăng tải lên hệ thống. Đăng ký theo dõi Nhận thông báo mời thầu tương tự qua email Để trở thành một trong những người đầu tiên nhận qua email các thông báo mời thầu của các gói thầu tương tự gói: \"Cung cấp, lắp đặt thiết bị\" ngay khi chúng được đăng tải, hãy đăng ký sử dụng gói VIP 1 của DauThau.info. Đăng ký gói VIP 1 Tiện ích tính toán chi phí dự thầu Chi phí liên quan đến nhà thầu khi thực hiện đấu thầu trên mua sắm công ( Điều 12 Nghị định 24/2024/NĐ-CP ) Loại chi phí Công thức tính Mức phí áp dụng (VND) Chi phí duy trì tài khoản hàng năm Chi phí nộp hồ sơ dự thầu Chi phí nộp hồ sơ đề xuất Chi phí trúng thầu Chi phí kết nối bảo lãnh dự thầu điện tử Tổng chi phí dự kiến Đăng nhập Để xem chi phí dự thầu Bạn cần Đăng nhập hoặc Đăng ký để xem chi phí dự thầu. Hỗ trợ và báo lỗi Hỗ trợ Bạn cần hỗ trợ gì? --- Chọn loại yêu cầu --- Kỹ thuật Tư vấn đấu thầu (Chuyên gia hoặc Trí tuệ nhân tạo) (Tính phí) Đề xuất tính năng/ Đóng góp ý tưởng Báo lỗi Khác Hỗ trợ khách hàng VIP Tạo yêu cầu Báo lỗi Dữ liệu trên trang có lỗi? Bạn sẽ được thưởng nếu phát hiện ra gói thầu và KHLCNT chưa đáp ứng quy định về đấu thầu qua mạng nhưng DauThau.info không cảnh báo hoặc cảnh báo sai. Báo lỗi Đã xem: 0",
+  "images": [],
+  "attachments": [],
+  "meta": {
+    "description": ", mời thầu Cung cấp, lắp đặt thiết bị: Hỗ trợ mục tiêu thành phố",
+    "author": "DauThau.info - Siêu phần mềm phân tích và săn tin thầu",
+    "copyright": "DauThau.info - Siêu phần mềm phân tích và săn tin thầu [info@dauthau.asia]",
+    "apple-mobile-web-app-capable": "yes",
+    "google-site-verification": "loKFfqZODOQrEwzLkZEoYYmRySBeMcK99oPdrc3Y_jY",
+    "generator": "NukeViet v5.0",
+    "viewport": "width=device-width, initial-scale=1",
+    "og:title": "Cung cấp, lắp đặt thiết bị",
+    "og:type": "website",
+    "og:description": ", mời thầu Cung cấp, lắp đặt thiết bị: Hỗ trợ mục tiêu thành phố",
+    "og:site_name": "DauThau.info - Siêu phần mềm phân tích và săn tin thầu",
+    "og:image": "https://dauthau.asia/uploads/socials-image/thong-bao-moi-thau-dauthau-info.png",
+    "og:url": "https://dauthau.asia/thongbao/moithau/cung-cap-lap-dat-thiet-bi-1771948.html",
+    "og:locale": "vi_VN",
+    "fb:app_id": "184485808818750",
+    "fb:pages": "1912758555720941",
+    "fb:admins": "100001604800244",
+    "nv-popups": "1",
+    "nv-popups-pageid": "0",
+    "nv-popups-module": "bidding",
+    "nv-popups-op": "thongbao"
+  },
+  "requires_login": true,
+  "id": "bf2256a0923985ba",
+  "category": "thongbao_moithau",
+  "category_name": "Thông báo mời thầu (TBMT)",
+  "crawled_at": "2026-07-02 21:11:51",
+  "downloaded_assets": {
+    "images": [],
+    "attachments": []
+  }
+}

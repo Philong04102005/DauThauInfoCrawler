@@ -49,14 +49,27 @@ class CrawlEngine:
 
         detail_urls: list[str] = []
         seen_detail: set[str] = set()
+        visited_lists: set[str] = set()
+        pending_lists: list[str] = []  # link phân trang do chính trang cung cấp
 
         max_pages = self.s.max_pages_per_category
         page = 1
+        pages_done = 0
         while True:
-            if max_pages is not None and page > max_pages:
+            if max_pages is not None and pages_done >= max_pages:
                 break
-            list_url = category["list_url"] if page == 1 else _with_page(
-                category["list_url"], page)
+            # Ưu tiên link phân trang thật (do trang render); fallback ?page=N.
+            if page == 1:
+                list_url = category["list_url"]
+            elif pending_lists:
+                list_url = pending_lists.pop(0)
+            else:
+                list_url = _with_page(category["list_url"], page)
+            if list_url in visited_lists:
+                page += 1
+                continue
+            visited_lists.add(list_url)
+
             log.info("[list] Trang %d: %s", page, list_url)
             res = fetcher.get(list_url)
             if not res.ok:
@@ -69,14 +82,20 @@ class CrawlEngine:
             for u in new_links:
                 seen_detail.add(u)
                 detail_urls.append(u)
+            # Gom link phân trang thuộc đúng danh mục này để duyệt tiếp.
+            list_prefix = category["list_url"].split("?")[0]
+            for pl in parsed.get("page_links", []):
+                if pl.startswith(list_prefix) and pl not in visited_lists:
+                    pending_lists.append(pl)
             log.info("  -> tìm thấy %d link chi tiết mới (tổng %d).",
                     len(new_links), len(detail_urls))
 
-            # Điều kiện dừng phân trang: không có link mới => hết trang.
-            if not new_links and page > 1:
+            # Điều kiện dừng: không link mới VÀ không còn trang chờ.
+            if not new_links and page > 1 and not pending_lists:
                 log.info("  Không còn link mới -> kết thúc phân trang.")
                 break
             page += 1
+            pages_done += 1
 
         # --- crawl từng trang chi tiết ---
         max_items = self.s.max_items_per_category
@@ -106,10 +125,14 @@ class CrawlEngine:
             log.warning("  Bỏ qua (lỗi %s).", res.error)
             return
 
-        record = P.parse_detail(res.html, res.final_url, self.s.base_url)
+        record = P.parse_detail(res.html, res.final_url, self.s.base_url, self.s)
         record["id"] = rec_id
         record["category"] = key
         record["category_name"] = category["name"]
+        record["crawled_at"] = time.strftime("%Y-%m-%d %H:%M:%S")
+        if record.get("requires_login"):
+            log.warning("  ⚠ Trang có nội dung yêu cầu đăng nhập/VIP — "
+                        "kiểm tra cookies nếu thiếu dữ liệu.")
 
         # Tải ảnh + đính kèm.
         asset_info = self.assets.download_for_record(record, key, rec_id)

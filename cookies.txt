@@ -1,0 +1,15 @@
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+dauthau.asia	FALSE	/	TRUE	1817444058	nv4c_asia_clid	OBhPh3EIM3Nxkn8SW7kG-t9zvgDTG89N-_T9OIps9o17LGgyQY-6Oc86DumCak9v
+dauthau.asia	FALSE	/	TRUE	1814103080	nv4c_asia_ulng	v2xBD3VtmYdz0Zco-chrYQ%2C%2C
+dauthau.asia	FALSE	/	TRUE	1783488859	nv4c_asia_userIdentifier	DScYxJ_qMyqR0NDfrXyMWFaMKShUIGGxr25yQXlczWw%2C
+dauthau.asia	FALSE	/	TRUE	1814420060	nv4c_asia_cltz	420.420.420%257C%252F%257C.dauthau.asia
+dauthau.asia	FALSE	/	TRUE	0	nv4c_asia_cltn	QXNpYS9CYW5na29rLjI1MjAwLjA%3D
+dauthau.asia	FALSE	/	TRUE	1817444062	nv_popups_cnt_7	1
+dauthau.asia	FALSE	/	FALSE	0	showWebApp	1
+dauthau.asia	FALSE	/	TRUE	1783015999	sso_token_dauthauinfo	680489251a9f463484311f4c9b01b34b5cfe5565438bc7acc59389a66704eb11
+dauthau.asia	FALSE	/	TRUE	0	DTINF_SSID	skq17cf1kvke8ohlv5qrt1sruq
+dauthau.asia	FALSE	/	FALSE	1814535987	nv4c_asia_infc	0
+dauthau.asia	FALSE	/	FALSE	1814535987	nv4c_asia_inft	1782999987010

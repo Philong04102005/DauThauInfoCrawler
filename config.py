@@ -30,6 +30,13 @@ USER_AGENT = (
 # Ngôn ngữ giao diện muốn crawl: "vi" hoặc "en"
 LANGUAGE = "vi"
 
+# --- Đăng nhập bằng cookies ---------------------------------------------------
+# File cookies định dạng Netscape (xuất từ trình duyệt bằng extension
+# "Get cookies.txt" hoặc tương tự SAU KHI đã đăng nhập vào dauthau.asia).
+# Crawler sẽ nạp cookies vào cả Playwright lẫn requests => truy cập như đã login.
+USE_COOKIES = True
+COOKIES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "cookies.txt")
+
 # --- Lịch sự & an toàn ------------------------------------------------------
 RESPECT_ROBOTS_TXT = True     # Tôn trọng robots.txt (nên để True)
 REQUEST_DELAY = 2.0           # Giây nghỉ tối thiểu giữa 2 request (điều tiết tải)
@@ -56,6 +63,23 @@ SAVE_JSON = True              # Lưu mỗi bản ghi thành 1 file .json
 SAVE_SQLITE = True            # Đồng thời ghi vào SQLite để tra cứu/lọc nhanh
 SQLITE_FILE = os.path.join(DATA_DIR, "dauthau.sqlite")
 SAVE_RAW_HTML = True          # Lưu HTML gốc của trang chi tiết (để parse lại sau)
+
+# --- Trích xuất nội dung ------------------------------------------------------
+# Selector vùng NỘI DUNG CHÍNH của trang (thử lần lượt, lấy cái đầu tiên khớp).
+# Giúp loại menu/banner/footer khỏi text, fields, ảnh, đính kèm.
+# Nếu không selector nào khớp => dùng cả <body> như cũ.
+MAIN_CONTENT_SELECTORS = [
+    "div.col-main-inner",
+    "div.col-main",
+    "#siteContent",
+    "div.content",
+]
+
+# Bỏ qua ảnh có URL chứa các chuỗi này (logo, banner, icon giao diện).
+IMAGE_URL_BLACKLIST = [
+    "/themes/", "/uploads/bannersdt/", "calendar.gif", "pix.gif",
+    "spin.svg", "language/", "socials-image/",
+]
 
 # ---------------------------------------------------------------------------
 # 2. DANH MỤC CẦN CRAWL
@@ -165,6 +189,142 @@ CATEGORIES = [
         "page_param": "?page=",
         "detail_link_sel": None,
         "detail_url_contains": "/hanghoa/",
+        "enabled": True,
+    },
+    # ----- Các danh mục bổ sung (đối chiếu với sitemap thực tế của trang) -----
+    {
+        "key": "kehoach_tongthe",
+        "name": "Kế hoạch tổng thể lựa chọn nhà thầu",
+        "list_url": f"{BASE_URL}/kehoachtongthe/luachon-nhathau/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/kehoachtongthe/",
+        "enabled": True,
+    },
+    {
+        "key": "moisotuyen_nhathau",
+        "name": "Thông báo mời sơ tuyển nhà thầu",
+        "list_url": f"{BASE_URL}/moisotuyen/nhathau/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/moisotuyen/",
+        "enabled": True,
+    },
+    {
+        "key": "moisotuyen_nhadautu",
+        "name": "Thông báo mời sơ tuyển nhà đầu tư",
+        "list_url": f"{BASE_URL}/moisotuyen/nhadautu/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/moisotuyen/",
+        "enabled": True,
+    },
+    {
+        "key": "ketquasotuyen_nhathau",
+        "name": "Kết quả sơ tuyển nhà thầu",
+        "list_url": f"{BASE_URL}/ketquasotuyen/nhathau/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/ketquasotuyen/",
+        "enabled": True,
+    },
+    {
+        "key": "ketquasotuyen_nhadautu",
+        "name": "Kết quả sơ tuyển nhà đầu tư",
+        "list_url": f"{BASE_URL}/ketquasotuyen/nhadautu/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/ketquasotuyen/",
+        "enabled": True,
+    },
+    {
+        "key": "moiquantam_nhadautu",
+        "name": "Thông báo mời quan tâm (nhà đầu tư)",
+        "list_url": f"{BASE_URL}/moiquantam/nhadautu/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/moiquantam/",
+        "enabled": True,
+    },
+    {
+        "key": "ketquamoiquantam_nhadautu",
+        "name": "Kết quả mời quan tâm (nhà đầu tư)",
+        "list_url": f"{BASE_URL}/ketquamoiquantam/nhadautu/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/ketquamoiquantam/",
+        "enabled": True,
+    },
+    {
+        "key": "du_an",
+        "name": "Dự án",
+        "list_url": f"{BASE_URL}/project/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/project/",
+        "enabled": True,
+    },
+    {
+        "key": "chu_dau_tu",
+        "name": "Chủ đầu tư",
+        "list_url": f"{BASE_URL}/project-owner/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/project-owner/",
+        "enabled": True,
+    },
+    {
+        "key": "ben_moi_thau",
+        "name": "Bên mời thầu",
+        "list_url": f"{BASE_URL}/procuring-entity/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/procuring-entity/",
+        "enabled": True,
+    },
+    {
+        "key": "nha_dau_tu",
+        "name": "Nhà đầu tư",
+        "list_url": f"{BASE_URL}/investors/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/investors/",
+        "enabled": True,
+    },
+    {
+        "key": "hanghoa_tbmt",
+        "name": "Hàng hóa trong TBMT",
+        "list_url": f"{BASE_URL}/hanghoatbmt/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/hanghoatbmt/",
+        "enabled": True,
+    },
+    {
+        "key": "dat_dai",
+        "name": "Thông báo đấu giá đất",
+        "list_url": f"{BASE_URL}/listlandplots/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/listlandplots/",
+        "enabled": True,
+    },
+    {
+        "key": "quy_hoach",
+        "name": "Quy hoạch",
+        "list_url": f"{BASE_URL}/quyhoach/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/quyhoach/",
+        "enabled": True,
+    },
+    {
+        "key": "tin_tuc",
+        "name": "Tin tức đấu thầu",
+        "list_url": f"{BASE_URL}/news/",
+        "page_param": "?page=",
+        "detail_link_sel": None,
+        "detail_url_contains": "/news/",
         "enabled": True,
     },
 ]

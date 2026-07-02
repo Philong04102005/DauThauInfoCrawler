@@ -9,6 +9,7 @@ Ví dụ dùng:
   python main.py --no-assets             # không tải ảnh/tệp
   python main.py --show-browser          # hiện trình duyệt (debug)
   python main.py --list                  # liệt kê các danh mục
+  python main.py --cookies cookies.txt   # đăng nhập bằng cookies xuất từ trình duyệt
 
 Chi tiết cấu hình xem config.py và README.md.
 """
@@ -26,7 +27,7 @@ from crawler.config_bridge import load_settings
 from crawler.utils import setup_logging
 from crawler.storage import Storage
 from crawler.engine import CrawlEngine
-from crawler.fetcher import make_fetcher
+from crawler.fetcher import make_fetcher, check_login
 
 
 def build_argparser():
@@ -47,6 +48,8 @@ def build_argparser():
                     help="Hiện cửa sổ trình duyệt (headless=False) để debug.")
     p.add_argument("--log-level", default="INFO",
                     help="DEBUG | INFO | WARNING | ERROR.")
+    p.add_argument("--cookies", help="Đường dẫn file cookies.txt (Netscape) để đăng nhập.")
+    p.add_argument("--no-cookies", action="store_true", help="Không dùng cookies (crawl như khách).")
     return p
 
 
@@ -57,7 +60,7 @@ def main(argv=None):
         print("Các danh mục cấu hình trong config.py:\n")
         for c in user_config.CATEGORIES:
             flag = "✓" if c.get("enabled", True) else "·"
-            print(f"  [{flag}] {c['key']:<22} {c['name']}")
+            print(f"  [{flag}] {c['key']:<26} {c['name']}")
             print(f"        {c['list_url']}")
         return 0
 
@@ -70,6 +73,8 @@ def main(argv=None):
         download_assets=False if args.no_assets else None,
         use_browser=False if args.no_browser else None,
         headless=False if args.show_browser else None,
+        cookies_file=args.cookies,
+        use_cookies=False if args.no_cookies else (True if args.cookies else None),
     )
 
     log = setup_logging(args.log_level,
@@ -78,6 +83,8 @@ def main(argv=None):
     log.info("Thư mục dữ liệu: %s", settings.data_dir)
     log.info("Chế độ trình duyệt: %s | Tải tệp: %s | Delay: %.1fs",
             settings.use_browser, settings.download_assets, settings.request_delay)
+    if settings.use_cookies:
+        log.info("Đăng nhập bằng cookies: %s", settings.cookies_file)
 
     # chọn danh mục
     if args.category:
@@ -99,6 +106,8 @@ def main(argv=None):
         # BrowserFetcher cần start/close; SimpleFetcher thì không.
         if hasattr(fetcher, "start"):
             fetcher.start()
+        if settings.use_cookies:
+            check_login(fetcher, settings)
         engine.run(fetcher, cats)
     finally:
         if hasattr(fetcher, "close"):
