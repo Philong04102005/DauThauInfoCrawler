@@ -18,7 +18,7 @@ Dữ liệu thu về ở nhiều tầng để "không bỏ sót":
 Yêu cầu: **Python 3.9+**.
 
 ```bash
-cd dauthau_crawler
+cd DauThauInfoCrawler
 pip install -r requirements.txt
 
 # Trang render bằng JavaScript nên cần trình duyệt Chromium cho Playwright:
@@ -71,6 +71,9 @@ Quá trình có thể **dừng và chạy lại bất cứ lúc nào** — tiế
 | `--no-assets` | Không tải ảnh/tệp đính kèm |
 | `--show-browser` | Hiện cửa sổ trình duyệt (debug) |
 | `--no-browser` | Dùng `requests` thay Playwright (chỉ hợp trang tĩnh) |
+| `--log-level` | Mức độ log (DEBUG / INFO / WARNING / ERROR) |
+| `--cookies PATH` | Truyền file cookies (Netscape) để đăng nhập (ghi đè config) |
+| `--no-cookies` | Chạy ẩn danh, không dùng file cookies (kể cả khi config bật) |
 
 ## 5. Tra cứu dữ liệu (`query.py`)
 
