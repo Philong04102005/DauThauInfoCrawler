@@ -138,9 +138,7 @@ trường cho gọn theo từng danh mục, thêm hàm xử lý riêng trong `pa
 
 ## 8. Lưu ý pháp lý & sử dụng có trách nhiệm
 
-- Bộ mã này chỉ nhắm tới **dữ liệu công khai**, không đăng nhập, không vượt
-  tường phí. Nhiều dữ liệu chi tiết trên dauthau.asia nằm sau tài khoản trả phí
-  — công cụ này **không** truy cập phần đó.
+- Bộ mã này hỗ trợ **đăng nhập thông qua file `cookies.txt`** (nạp phiên đăng nhập từ trình duyệt của bạn). Dù vậy, nó không tự động vượt tường phí; nếu dữ liệu chi tiết yêu cầu tài khoản trả phí (VIP), bạn phải xuất cookie từ một tài khoản đã nâng cấp để công cụ này có thể truy cập được.
 - Hãy **đọc và tuân thủ Điều khoản sử dụng** của dauthau.asia
   (`/siteterms/terms-and-conditions.html`) và `robots.txt`. Mặc định crawler
   tôn trọng `robots.txt` (`RESPECT_ROBOTS_TXT = True`) và điều tiết tốc độ để
